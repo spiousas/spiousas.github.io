@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+  preview:
+    port: 4848
+    browser: true
+
+# Spanish is the default language; render English with: quarto render --profile en
+profile:
+  default: es
+
+website:
+  site-url: https://spiousas.github.io
+  repo-url: https://github.com/spiousas/spiousas.github.io
+  favicon: images/favicon.svg
+  open-graph: true
+  twitter-card:
+    creator: "@spiousas"
+  search:
+    location: navbar
+    type: overlay
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/theme-base.scss, assets/theme-light.scss]
+      dark: [cosmo, assets/theme-base.scss, assets/theme-dark.scss]
+    toc: true
+    toc-depth: 3
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-copy: true
+    code-overflow: wrap
+    highlight-style: github
+    fig-align: center
+    fig-responsive: true
+    email-obfuscation: javascript
+
+bibliography: assets/publications.bib
+
+execute:
+  freeze: auto
+  echo: true
+  warning: false
+  message: false

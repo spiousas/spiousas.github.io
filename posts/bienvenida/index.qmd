@@ -1,0 +1,55 @@
+---
+title: "Un blog para las cosas que no entran en un paper"
+description: >
+  Arranco un blog sobre R, estadística y análisis de datos: por qué, sobre qué,
+  y cómo está hecho este sitio.
+date: 2026-10-16
+categories: [meta, quarto, rstats]
+image: thumbnail.svg
+image-alt: "Logo de Quarto sobre fondo petróleo"
+---
+
+Hay una categoría de conocimiento que se acumula trabajando y que no entra en
+ningún paper: por qué ese modelo mixto no converge, cómo se interpreta de verdad
+un periodograma, qué hace `scale()` con tus coeficientes, cuál es la forma menos
+dolorosa de graficar intervalos de confianza. Este blog es para eso.
+
+## Sobre qué voy a escribir
+
+- **R y tidyverse** — patrones que uso todos los días, y los que abandoné.
+- **Estadística aplicada** — inferencia, modelos mixtos, análisis de datos
+  periódicos y los malentendidos que veo repetirse en la práctica.
+- **Visualización** — `ggplot2`, decisiones de diseño y gráficos que comunican.
+- **Flujo de trabajo** — proyectos reproducibles, Quarto, control de versiones.
+
+La idea es que cada entrada sea corta, autocontenida y con código que puedas
+copiar y correr.
+
+## Cómo está hecho este sitio
+
+El sitio está escrito en [Quarto](https://quarto.org) y publicado con GitHub
+Pages. Cada entrada es un archivo `.qmd`, así que el texto y el código viven
+juntos y los resultados se generan al renderizar:
+
+```r
+library(tidyverse)
+
+# Un ejemplo de lo que suele aparecer por acá
+tibble(t = seq(0, 4 * pi, length.out = 200)) |>
+  mutate(senal = sin(t) + rnorm(n(), sd = 0.2)) |>
+  ggplot(aes(t, senal)) +
+  geom_line(linewidth = 0.4, colour = "grey60") +
+  geom_smooth(method = "loess", formula = y ~ x, se = FALSE, colour = "#1d6a73") +
+  labs(x = "Tiempo", y = "Señal") +
+  theme_minimal(base_size = 12)
+```
+
+Una ventaja de este esquema: los resultados quedan *congelados*
+(`freeze: true`), así que el servidor que publica el sitio no necesita tener R
+instalado. Se ejecuta solamente cuando cambio el código de una entrada.
+
+## Próximamente
+
+Tengo en la lista algunas notas sobre análisis de datos periódicos, que es donde
+paso la mayor parte del tiempo. Si hay algo que te gustaría leer, escribime por
+[GitHub](https://github.com/spiousas) o por [X](https://x.com/spiousas).

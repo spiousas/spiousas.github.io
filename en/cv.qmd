@@ -1,0 +1,47 @@
+---
+title: "CV"
+subtitle: "Education, positions and background"
+toc: true
+---
+
+::: {.callout-note appearance="simple"}
+Full PDF version: [English](/files/cv-en.pdf) · [español](/files/cv-es.pdf)
+:::
+
+## Current positions
+
+::: {.entry}
+**Assistant Researcher** — CONICET
+[National Scientific and Technical Research Council, Argentina](https://www.conicet.gov.ar){.entry-meta}
+:::
+
+::: {.entry}
+**Lecturer** — Universidad de San Andrés
+[BA and MSc in Behavioural Sciences](https://udesa.edu.ar){.entry-meta}
+:::
+
+::: {.entry}
+**Data Science** — DwiD
+[Data analysis and tool development](https://github.com/DwiD-DS){.entry-meta}
+:::
+
+## Education
+
+| Degree | Institution | Year |
+|--------|-------------|------|
+| PhD in behavioural neuroscience | *to complete* | *to complete* |
+| MSc in Mathematical Statistics | *to complete* | *to complete* |
+| Undergraduate degree | *to complete* | *to complete* |
+
+: Academic background {tbl-colwidths="[45,35,20]"}
+
+## Areas of expertise
+
+Time perception · circadian rhythms and sleep · auditory and spatial perception
+· statistical inference for periodic data · R and reproducible analysis.
+
+## Contact
+
+- Email: [tu.email@institucion.edu.ar](mailto:tu.email@institucion.edu.ar)
+- GitHub: [@spiousas](https://github.com/spiousas)
+- Buenos Aires, Argentina

@@ -1,0 +1,68 @@
+---
+title: "Investigación"
+subtitle: "Tiempo, ritmos y percepción en el comportamiento humano"
+nocite: |
+  @*
+---
+
+Mi trabajo combina experimentos de psicofísica y comportamiento con métodos
+estadísticos y análisis de series temporales. La pregunta de fondo es cómo el
+sistema nervioso representa el tiempo, en escalas que van de los milisegundos a
+las 24 horas.
+
+## Líneas de investigación
+
+::: {.entry}
+### Percepción y producción de intervalos temporales
+Cómo estimamos, reproducimos y sincronizamos intervalos de milisegundos a
+segundos. Incluye tareas de *finger tapping*, sincronización sensoriomotora y
+el efecto del contexto sensorial sobre el juicio temporal.
+
+[Herramientas y experimentos en línea](https://github.com/spiousas?tab=repositories){.entry-meta}
+:::
+
+::: {.entry}
+### Ritmos circadianos y sueño
+Estimación de fase circadiana a partir de datos de actigrafía, wearables y
+luminiscencia; marcadores como el *dim light melatonin onset* (DLMO) y el
+impacto de los cambios de horario sobre el sueño en poblaciones reales.
+
+[CircaLuc: app para análisis de luminiscencia circadiana](https://github.com/spiousas/CircaLuc){.entry-meta}
+:::
+
+::: {.entry}
+### Percepción auditiva y espacial
+Localización de fuentes sonoras, percepción de distancia y la interacción entre
+la información auditiva y visual en la construcción del espacio perceptual.
+:::
+
+::: {.entry}
+### Métodos estadísticos para las ciencias del comportamiento
+Inferencia para datos periódicos, modelos mixtos y análisis de datos
+experimentales con R. Buena parte de este trabajo se cruza con la
+[docencia](docencia.qmd) y con el [blog](blog.qmd).
+:::
+
+## Proyectos y software
+
+| Proyecto | Descripción |
+|----------|-------------|
+| [CircaLuc](https://github.com/spiousas/CircaLuc) | Aplicación web para el análisis de luminiscencia circadiana. |
+| [Digital Rhythms Project](https://spiousas.github.io/DigitalRhythmsProject/) | Ritmos de actividad a partir de huellas digitales. |
+| [30 días de gráficos](https://github.com/spiousas/30diasdegraficos) | Participación en la iniciativa de R4DS en español. |
+
+: Software y proyectos públicos {tbl-colwidths="[30,70]"}
+
+## Publicaciones
+
+::: {.callout-note collapse="true"}
+## Cómo se arma esta lista
+
+Las referencias se generan automáticamente desde `assets/publications.bib`.
+Exportá tus entradas en formato BibTeX desde Google Scholar u ORCID, pegalas en
+ese archivo y la lista se actualiza sola al renderizar. El orden y el estilo se
+controlan con la opción `csl:` en `_quarto.yml`.
+:::
+
+::: {#refs}
+:::

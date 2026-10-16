@@ -1,0 +1,48 @@
+---
+title: "CV"
+subtitle: "Formación, cargos y antecedentes"
+toc: true
+---
+
+::: {.callout-note appearance="simple"}
+Versión completa en PDF: [español](files/cv-es.pdf) · [English](files/cv-en.pdf)
+:::
+
+## Cargos actuales
+
+::: {.entry}
+**Investigador Asistente** — CONICET
+[Consejo Nacional de Investigaciones Científicas y Técnicas, Argentina](https://www.conicet.gov.ar){.entry-meta}
+:::
+
+::: {.entry}
+**Docente** — Universidad de San Andrés
+[Licenciatura y Maestría en Ciencias del Comportamiento](https://udesa.edu.ar){.entry-meta}
+:::
+
+::: {.entry}
+**Data Science** — DwiD
+[Análisis de datos y desarrollo de herramientas](https://github.com/DwiD-DS){.entry-meta}
+:::
+
+## Formación
+
+| Título | Institución | Año |
+|--------|-------------|-----|
+| Doctorado en neurociencia del comportamiento | *completar* | *completar* |
+| Maestría en Estadística Matemática | *completar* | *completar* |
+| Grado | *completar* | *completar* |
+
+: Formación académica {tbl-colwidths="[45,35,20]"}
+
+## Áreas de especialización
+
+Percepción temporal · ritmos circadianos y sueño · percepción auditiva y
+espacial · inferencia estadística para datos periódicos · R y análisis
+reproducible.
+
+## Contacto
+
+- Email: [tu.email@institucion.edu.ar](mailto:tu.email@institucion.edu.ar)
+- GitHub: [@spiousas](https://github.com/spiousas)
+- Buenos Aires, Argentina

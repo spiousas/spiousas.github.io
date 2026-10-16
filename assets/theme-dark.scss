@@ -1,0 +1,37 @@
+/*-- scss:defaults --*/
+
+$primary:   #6fbdc4 !default;
+$body-bg:   #16181b !default;
+$body-color: #dfdfdb !default;
+$link-color: #7cc7ce !default;
+
+$border-color: #2c2f34 !default;
+$gray-200: #24272b !default;
+$gray-600: #9a9ea3 !default;
+
+$navbar-bg: #16181b !default;
+$navbar-fg: #dfdfdb !default;
+$navbar-hl: #6fbdc4 !default;
+
+$code-bg:    #22252a !default;
+$code-color: #e39aae !default;
+$code-block-bg: #1b1e22 !default;
+
+$footer-bg: #16181b !default;
+$footer-fg: #9a9ea3 !default;
+
+/*-- scss:rules --*/
+
+:root {
+  --bs-border-color: #{$border-color};
+}
+
+.quarto-category {
+  background-color: #24272b;
+  color: #b9bcc0;
+  border: 1px solid #32363b;
+}
+
+img:not(.no-dim) { opacity: 0.94; }
+
+mark, .mark { background-color: #4a4524; color: #f0ead6; }

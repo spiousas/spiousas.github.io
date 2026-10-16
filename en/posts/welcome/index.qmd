@@ -1,0 +1,55 @@
+---
+title: "A blog for the things that don't fit in a paper"
+description: >
+  Starting a blog about R, statistics and data analysis: why, about what, and
+  how this site is built.
+date: 2026-10-16
+categories: [meta, quarto, rstats]
+image: /posts/bienvenida/thumbnail.svg
+image-alt: "A smoothed signal on a petrol-blue background"
+---
+
+There is a category of knowledge that accumulates as you work and never makes it
+into a paper: why that mixed model will not converge, how to actually read a
+periodogram, what `scale()` does to your coefficients, the least painful way to
+plot confidence intervals. This blog is for that.
+
+## What I will write about
+
+- **R and the tidyverse** — patterns I use every day, and the ones I abandoned.
+- **Applied statistics** — inference, mixed models, periodic data analysis, and
+  the misunderstandings I see repeated in practice.
+- **Visualisation** — `ggplot2`, design decisions, and plots that communicate.
+- **Workflow** — reproducible projects, Quarto, version control.
+
+The aim is for each post to be short, self-contained, and to carry code you can
+copy and run.
+
+## How this site is built
+
+The site is written in [Quarto](https://quarto.org) and published with GitHub
+Pages. Every post is a `.qmd` file, so text and code live together and results
+are generated at render time:
+
+```r
+library(tidyverse)
+
+# An example of what tends to show up around here
+tibble(t = seq(0, 4 * pi, length.out = 200)) |>
+  mutate(signal = sin(t) + rnorm(n(), sd = 0.2)) |>
+  ggplot(aes(t, signal)) +
+  geom_line(linewidth = 0.4, colour = "grey60") +
+  geom_smooth(method = "loess", formula = y ~ x, se = FALSE, colour = "#1d6a73") +
+  labs(x = "Time", y = "Signal") +
+  theme_minimal(base_size = 12)
+```
+
+One advantage of this setup: results are *frozen* (`freeze: true`), so the server
+that publishes the site does not need R installed. Code runs only when I change
+a post.
+
+## Coming up
+
+I have a few notes queued on periodic data analysis, which is where I spend most
+of my time. If there is something you would like to read, write to me on
+[GitHub](https://github.com/spiousas) or [X](https://x.com/spiousas).

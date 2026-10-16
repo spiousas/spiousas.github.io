@@ -1,0 +1,67 @@
+---
+title: "Research"
+subtitle: "Time, rhythms and perception in human behaviour"
+nocite: |
+  @*
+---
+
+My work combines psychophysics and behavioural experiments with statistical
+methods and time-series analysis. The underlying question is how the nervous
+system represents time, on scales ranging from milliseconds to 24 hours.
+
+## Research lines
+
+::: {.entry}
+### Perception and production of temporal intervals
+How we estimate, reproduce and synchronise intervals from milliseconds to
+seconds: finger-tapping tasks, sensorimotor synchronisation, and the effect of
+sensory context on temporal judgements.
+
+[Tools and online experiments](https://github.com/spiousas?tab=repositories){.entry-meta}
+:::
+
+::: {.entry}
+### Circadian rhythms and sleep
+Estimating circadian phase from actigraphy, wearable and luminescence data;
+markers such as the dim light melatonin onset (DLMO), and the effect of
+daylight-saving transitions on sleep in real-world populations.
+
+[CircaLuc: circadian luminescence analysis app](https://github.com/spiousas/CircaLuc){.entry-meta}
+:::
+
+::: {.entry}
+### Auditory and spatial perception
+Sound-source localisation, distance perception, and the interaction between
+auditory and visual information in building perceptual space.
+:::
+
+::: {.entry}
+### Statistical methods for the behavioural sciences
+Inference for periodic data, mixed models and the analysis of experimental data
+with R. Much of this work overlaps with my [teaching](teaching.qmd) and with the
+[blog](blog.qmd).
+:::
+
+## Projects and software
+
+| Project | Description |
+|---------|-------------|
+| [CircaLuc](https://github.com/spiousas/CircaLuc) | Web app for circadian luminescence analysis. |
+| [Digital Rhythms Project](https://spiousas.github.io/DigitalRhythmsProject/) | Activity rhythms from digital traces. |
+| [30 días de gráficos](https://github.com/spiousas/30diasdegraficos) | Contributions to the R4DS en español data-viz challenge. |
+
+: Public projects and software {tbl-colwidths="[30,70]"}
+
+## Publications
+
+::: {.callout-note collapse="true"}
+## How this list is built
+
+References are generated automatically from `assets/publications.bib`. Export
+your entries as BibTeX from Google Scholar or ORCID, paste them into that file,
+and the list updates on render. Order and style are controlled by the `csl:`
+option in `_quarto.yml`.
+:::
+
+::: {#refs}
+:::

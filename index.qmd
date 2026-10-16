@@ -1,0 +1,56 @@
+---
+title: "Ignacio Spiousas"
+subtitle: "Investigador Asistente del CONICET · Docente en la Universidad de San Andrés"
+about:
+  template: trestles
+  image: images/profile.svg
+  image-width: 15em
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:tu.email@institucion.edu.ar
+    - icon: github
+      text: GitHub
+      href: https://github.com/spiousas
+    - icon: twitter-x
+      text: X
+      href: https://x.com/spiousas
+    - icon: mortarboard
+      text: Scholar
+      href: https://scholar.google.com/citations?user=TU_ID_DE_SCHOLAR
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0000-0000-0000
+listing:
+  id: ultimos-posts
+  contents: posts
+  type: default
+  max-items: 3
+  sort: "date desc"
+  fields: [date, title, description]
+  image-placeholder: images/favicon.svg
+toc: false
+---
+
+Soy doctor en neurociencia del comportamiento e investigador asistente del
+**CONICET**. Doy clases en la **Universidad de San Andrés** y trabajo en ciencia
+de datos en **[DwiD](https://github.com/DwiD-DS)**. Vivo y trabajo en Buenos
+Aires, Argentina.
+
+Me interesa cómo el cerebro organiza el tiempo: desde la percepción de
+intervalos de milisegundos hasta los ritmos circadianos y el sueño. En el camino
+termino escribiendo bastante código en R, y buena parte de mi trabajo tiene que
+ver con llevar métodos estadísticos sólidos a la práctica cotidiana de las
+ciencias del comportamiento.
+
+## Por acá
+
+- [**Investigación**](investigacion.qmd) — líneas de trabajo, publicaciones y proyectos.
+- [**Docencia**](docencia.qmd) — cursos, materiales y apuntes.
+- [**Blog**](blog.qmd) — notas sobre R, estadística y análisis de datos.
+
+## Últimas entradas
+
+::: {#ultimos-posts}
+:::

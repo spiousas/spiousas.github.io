@@ -1,0 +1,36 @@
+/*-- scss:defaults --*/
+
+// Restrained petrol-teal accent on warm paper
+$primary:   #1d6a73 !default;
+$body-bg:   #fdfdfc !default;
+$body-color: #1f2225 !default;
+$link-color: #17585f !default;
+
+$border-color: #e4e2dd !default;
+$gray-200: #eceae5 !default;
+$gray-600: #5d6166 !default;
+
+$navbar-bg: #fdfdfc !default;
+$navbar-fg: #1f2225 !default;
+$navbar-hl: #1d6a73 !default;
+
+$code-bg:    #f5f4f0 !default;
+$code-color: #8a3d52 !default;
+$code-block-bg: #faf9f6 !default;
+
+$footer-bg: #fdfdfc !default;
+$footer-fg: #5d6166 !default;
+
+/*-- scss:rules --*/
+
+:root {
+  --bs-border-color: #{$border-color};
+}
+
+.quarto-category {
+  background-color: #f1efe9;
+  color: #4a4e52;
+  border: 1px solid #e4e2dd;
+}
+
+mark, .mark { background-color: #fdf3d0; }

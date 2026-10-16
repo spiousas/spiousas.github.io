@@ -1,0 +1,89 @@
+---
+title: "Docencia"
+subtitle: "Estadística, análisis de datos y métodos experimentales"
+---
+
+Doy clases de estadística y análisis de datos en la **Universidad de San
+Andrés**, y dicto cursos de posgrado y talleres de inferencia estadística con R
+en distintas instituciones. Casi todo el material es abierto: los repositorios
+con tutoriales, prácticos y datos están enlazados en cada curso.
+
+::: {.callout-tip}
+## Material de clase
+Si estás buscando el material de un curso que estás cursando, los repositorios
+de abajo tienen los tutoriales, las guías de prácticos y los datos.
+:::
+
+## Universidad de San Andrés
+
+::: {.entry}
+### CC408 — Ciencia de Datos
+Licenciatura en Ciencias del Comportamiento. Introducción al análisis de datos
+con R: manipulación y visualización con el *tidyverse*, flujo de trabajo
+reproducible y comunicación de resultados.
+
+[Tutoriales y prácticos](https://github.com/spiousas/CC408_2024){.entry-meta}
+:::
+
+::: {.entry}
+### CC400 — Trabajos prácticos
+Guías de trabajos prácticos y material de apoyo de la materia.
+
+[Repositorio de prácticos](https://github.com/spiousas/practicos_CC400){.entry-meta}
+:::
+
+::: {.entry}
+### MCC302
+Materia de la Maestría en Ciencias del Comportamiento.
+
+[Material del curso](https://github.com/spiousas/MCC302){.entry-meta}
+:::
+
+::: {.entry}
+### Diseño experimental
+Diseño de experimentos en ciencias del comportamiento: control de variables,
+tamaño de muestra y análisis acorde al diseño.
+
+[Material del curso](https://github.com/spiousas/ExpDes){.entry-meta}
+:::
+
+## Cursos de posgrado y talleres
+
+::: {.entry}
+### Inferencia estadística en el análisis de datos periódicos en neurociencias
+Universidad de la República (Uruguay) · 2025
+
+Curso de posgrado sobre inferencia aplicada a series temporales y datos
+periódicos: ritmos, periodicidad y sus trampas estadísticas.
+
+[Repositorio del curso](https://github.com/spiousas/Inferencia_UdelaR_2025){.entry-meta}
+:::
+
+::: {.entry}
+### Inferencia estadística (curso pre-SAN)
+Sociedad Argentina de Neurociencias · 2024
+
+Curso satélite de inferencia estadística para investigadores en formación.
+
+[Repositorio del curso](https://github.com/spiousas/InferenciaSAN2024){.entry-meta}
+:::
+
+::: {.entry}
+### Inferencia con R
+Universidad Nacional de Quilmes · 2021 y 2022
+
+Introducción a la inferencia estadística usando R, con énfasis en simulación y
+en la interpretación de resultados.
+
+[Edición 2022](https://github.com/spiousas/Inferencia_con_R_UNQ2022) ·
+[Edición 2021](https://github.com/spiousas/Inferencia_con_R_UNQ2021){.entry-meta}
+:::
+
+## Divulgación y comunidad
+
+- **[#30díasdegráficos](https://github.com/spiousas/30diasdegraficos)** — desafío
+  de visualización de datos de la comunidad de R4DS en español.
+- **[Contar con datos](https://github.com/spiousas/data_Udezzza_contar_con_datos)** —
+  datos y código para reproducir las figuras de la charla.
+- **[Slides](https://github.com/spiousas/SpiousasSlides)** — presentaciones de
+  charlas y clases.

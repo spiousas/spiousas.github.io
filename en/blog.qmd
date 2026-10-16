@@ -1,0 +1,18 @@
+---
+title: "Blog"
+subtitle: "Notes on R, statistics and data analysis"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: [date, title]
+  filter-ui: true
+  feed: true
+  fields: [date, title, description, categories, reading-time]
+toc: false
+---
+
+Short notes on things I run into while working: R tricks, common statistical
+misunderstandings, visualisation, and reproducible workflows. You can also
+subscribe via [RSS](blog.xml).

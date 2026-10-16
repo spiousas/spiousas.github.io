@@ -1,0 +1,41 @@
+lang: en
+
+project:
+  render:
+    - en/
+
+website:
+  title: "Ignacio Spiousas"
+  description: "Behavioural neuroscience, circadian rhythms and statistics with R."
+  navbar:
+    logo: images/favicon.svg
+    title: "Ignacio Spiousas"
+    left:
+      - href: en/index.qmd
+        text: Home
+      - href: en/research.qmd
+        text: Research
+      - href: en/teaching.qmd
+        text: Teaching
+      - href: en/blog.qmd
+        text: Blog
+      - href: en/cv.qmd
+        text: CV
+    right:
+      - href: /
+        text: "ES"
+        aria-label: "Versión en español"
+      - icon: github
+        href: https://github.com/spiousas
+        aria-label: GitHub
+      - icon: twitter-x
+        href: https://x.com/spiousas
+        aria-label: X
+      - icon: rss
+        href: en/blog.xml
+        aria-label: RSS
+  page-footer:
+    border: true
+    left: "© 2026 Ignacio Spiousas"
+    center: "Made with [Quarto](https://quarto.org)"
+    right: "[Source](https://github.com/spiousas/spiousas.github.io)"

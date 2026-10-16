@@ -1,0 +1,9 @@
+# Opciones por defecto para todas las entradas del blog
+author: "Ignacio Spiousas"
+freeze: true
+toc: true
+toc-depth: 3
+title-block-banner: false
+code-fold: false
+code-line-numbers: false
+df-print: kable

@@ -1,0 +1,46 @@
+lang: es
+
+project:
+  render:
+    - index.qmd
+    - investigacion.qmd
+    - docencia.qmd
+    - blog.qmd
+    - cv.qmd
+    - posts/
+
+website:
+  title: "Ignacio Spiousas"
+  description: "Neurociencia del comportamiento, ritmos circadianos y estadística con R."
+  navbar:
+    logo: images/favicon.svg
+    title: "Ignacio Spiousas"
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: investigacion.qmd
+        text: Investigación
+      - href: docencia.qmd
+        text: Docencia
+      - href: blog.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+    right:
+      - href: /en/
+        text: "EN"
+        aria-label: "English version"
+      - icon: github
+        href: https://github.com/spiousas
+        aria-label: GitHub
+      - icon: twitter-x
+        href: https://x.com/spiousas
+        aria-label: X
+      - icon: rss
+        href: blog.xml
+        aria-label: RSS
+  page-footer:
+    border: true
+    left: "© 2026 Ignacio Spiousas"
+    center: "Hecho con [Quarto](https://quarto.org)"
+    right: "[Código fuente](https://github.com/spiousas/spiousas.github.io)"

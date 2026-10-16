@@ -1,0 +1,54 @@
+---
+title: "Ignacio Spiousas"
+subtitle: "Assistant Researcher at CONICET · Lecturer at Universidad de San Andrés"
+about:
+  template: trestles
+  image: /images/profile.svg
+  image-width: 15em
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:tu.email@institucion.edu.ar
+    - icon: github
+      text: GitHub
+      href: https://github.com/spiousas
+    - icon: twitter-x
+      text: X
+      href: https://x.com/spiousas
+    - icon: mortarboard
+      text: Scholar
+      href: https://scholar.google.com/citations?user=TU_ID_DE_SCHOLAR
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0000-0000-0000
+listing:
+  id: latest-posts
+  contents: posts
+  type: default
+  max-items: 3
+  sort: "date desc"
+  fields: [date, title, description]
+toc: false
+---
+
+I am a behavioural neuroscientist and an Assistant Researcher at **CONICET**. I
+teach at **Universidad de San Andrés** and work on data science at
+**[DwiD](https://github.com/DwiD-DS)**. I live and work in Buenos Aires,
+Argentina.
+
+I study how the brain organises time — from the perception of millisecond
+intervals to circadian rhythms and sleep. Along the way I write a fair amount of
+R, and much of my work is about bringing sound statistical methods into the
+everyday practice of the behavioural sciences.
+
+## Around here
+
+- [**Research**](research.qmd) — research lines, publications and projects.
+- [**Teaching**](teaching.qmd) — courses, materials and notes.
+- [**Blog**](blog.qmd) — notes on R, statistics and data analysis.
+
+## Latest posts
+
+::: {#latest-posts}
+:::

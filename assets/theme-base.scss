@@ -1,0 +1,208 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+// Typography
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif !default;
+$font-family-monospace:  "JetBrains Mono", SFMono-Regular, Menlo, Consolas, monospace !default;
+$headings-font-family:   "Source Serif 4", Georgia, "Times New Roman", serif !default;
+
+$font-size-root:   17px !default;
+$line-height-base: 1.65 !default;
+
+$h1-font-size: 2.15rem !default;
+$h2-font-size: 1.55rem !default;
+$h3-font-size: 1.22rem !default;
+$h4-font-size: 1.05rem !default;
+
+$headings-font-weight:    600 !default;
+$headings-line-height:    1.25 !default;
+$headings-margin-bottom:  0.6rem !default;
+
+// Layout
+$grid-gutter-width: 1.6rem !default;
+$border-radius:     6px !default;
+$border-radius-lg:  8px !default;
+
+// Navbar / sidebar
+$navbar-padding-y:   0.75rem !default;
+$navbar-brand-font-size: 1.05rem !default;
+$toc-font-size:      0.8rem !default;
+$footer-font-size:   0.82rem !default;
+
+// Code
+$code-font-size:      0.86em !default;
+$code-block-font-size: 0.82em !default;
+
+/*-- scss:rules --*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+// Generous, readable measure for prose
+main.content {
+  p, li { max-width: 40rem; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.01em;
+}
+
+h1.title {
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  font-family: $headings-font-family;
+  font-style: italic;
+  font-size: 1.1rem;
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+}
+
+// Section rules give the page an academic rhythm
+main.content > section > h2,
+main.content > h2 {
+  border-bottom: 1px solid var(--bs-border-color);
+  padding-bottom: 0.3rem;
+  margin-top: 2.6rem;
+}
+
+// Links: underline on hover only, keeps body text calm
+main.content a:not(.btn):not(.nav-link):not(.quarto-title-meta-contents a) {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+  transition: border-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+main.content a:not(.btn):not(.nav-link):hover {
+  border-bottom-color: currentColor;
+}
+
+// Navbar
+.navbar {
+  border-bottom: 1px solid var(--bs-border-color);
+  .navbar-brand { font-family: $headings-font-family; font-weight: 600; }
+  .navbar-nav .nav-link {
+    font-size: 0.93rem;
+    letter-spacing: 0.01em;
+  }
+  .navbar-brand > img { max-height: 26px; margin-right: 0.45rem; }
+}
+
+// Language toggle pill (the EN / ES navbar item)
+.navbar-nav .nav-link[aria-label="English version"],
+.navbar-nav .nav-link[aria-label="Versión en español"] {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem !important;
+  font-size: 0.78rem !important;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  margin-right: 0.35rem;
+}
+
+// About page (home)
+.quarto-about-trestles .about-entity .about-image {
+  border-radius: 8px;
+}
+.about-links .about-link {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+.about-links .about-link:hover {
+  border-color: currentColor;
+}
+
+// Blog listing
+.quarto-listing {
+  margin-top: 1.5rem;
+}
+.quarto-listing-default .listing-item {
+  border-bottom: 1px solid var(--bs-border-color);
+  padding-bottom: 1.15rem;
+  margin-bottom: 1.15rem;
+}
+.listing-title {
+  font-family: $headings-font-family;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.listing-date, .listing-reading-time {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.82rem;
+  opacity: 0.7;
+}
+.listing-description {
+  font-size: 0.95rem;
+}
+.quarto-category {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  border-radius: 999px;
+}
+
+// Research / teaching entry blocks
+.entry {
+  border-left: 2px solid var(--bs-border-color);
+  padding: 0.1rem 0 0.1rem 1rem;
+  margin-bottom: 1.4rem;
+  p { margin-bottom: 0.3rem; }
+  .entry-meta {
+    font-size: 0.82rem;
+    opacity: 0.72;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+// Publication list rendered from the .bib file
+#refs div.csl-entry {
+  margin-bottom: 1rem;
+  padding-left: 1.6rem;
+  text-indent: -1.6rem;
+  font-size: 0.95rem;
+  max-width: 42rem;
+}
+
+blockquote {
+  border-left: 3px solid var(--bs-border-color);
+  padding-left: 1rem;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+// Code
+pre.sourceCode, div.sourceCode {
+  border-radius: $border-radius;
+  border: 1px solid var(--bs-border-color);
+}
+code:not(.sourceCode) {
+  padding: 0.12em 0.32em;
+  border-radius: 3px;
+}
+
+.nav-footer {
+  border-top: 1px solid var(--bs-border-color);
+  font-size: $footer-font-size;
+  a { text-decoration: none; }
+}
+
+// Table of contents
+#TOC, .sidebar nav[role="doc-toc"] {
+  .nav-link { border-left: 2px solid transparent; }
+  .nav-link.active { border-left-color: $primary; font-weight: 500; }
+}
+
+table {
+  font-size: 0.92rem;
+}
+
+@media (max-width: 575px) {
+  :root { font-size: 16px; }
+  h1.title { font-size: 1.8rem; }
+}

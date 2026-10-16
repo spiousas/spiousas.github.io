@@ -1,0 +1,89 @@
+---
+title: "Teaching"
+subtitle: "Statistics, data analysis and experimental methods"
+---
+
+I teach statistics and data analysis at **Universidad de San Andrés**, and give
+graduate courses and workshops on statistical inference with R at various
+institutions. Nearly all of the material is open: the repositories with
+tutorials, problem sets and data are linked from each course.
+
+::: {.callout-tip}
+## Course material
+If you are looking for the material of a course you are currently taking, the
+repositories below hold the tutorials, problem sets and data.
+:::
+
+## Universidad de San Andrés
+
+::: {.entry}
+### CC408 — Data Science
+BA in Behavioural Sciences. Introduction to data analysis with R: data wrangling
+and visualisation with the tidyverse, reproducible workflows, and communicating
+results.
+
+[Tutorials and problem sets](https://github.com/spiousas/CC408_2024){.entry-meta}
+:::
+
+::: {.entry}
+### CC400 — Problem sets
+Problem sets and supporting material for the course.
+
+[Problem set repository](https://github.com/spiousas/practicos_CC400){.entry-meta}
+:::
+
+::: {.entry}
+### MCC302
+Course in the MSc in Behavioural Sciences.
+
+[Course material](https://github.com/spiousas/MCC302){.entry-meta}
+:::
+
+::: {.entry}
+### Experimental design
+Design of experiments in the behavioural sciences: control of variables, sample
+size, and analysis matched to the design.
+
+[Course material](https://github.com/spiousas/ExpDes){.entry-meta}
+:::
+
+## Graduate courses and workshops
+
+::: {.entry}
+### Statistical inference for periodic data in neuroscience
+Universidad de la República, Uruguay · 2025
+
+Graduate course on inference applied to time series and periodic data: rhythms,
+periodicity, and their statistical pitfalls.
+
+[Course repository](https://github.com/spiousas/Inferencia_UdelaR_2025){.entry-meta}
+:::
+
+::: {.entry}
+### Statistical inference (pre-SAN course)
+Argentine Society for Neuroscience Research · 2024
+
+Satellite course on statistical inference for early-career researchers.
+
+[Course repository](https://github.com/spiousas/InferenciaSAN2024){.entry-meta}
+:::
+
+::: {.entry}
+### Inference with R
+Universidad Nacional de Quilmes · 2021 and 2022
+
+Introduction to statistical inference using R, with an emphasis on simulation
+and on interpreting results.
+
+[2022 edition](https://github.com/spiousas/Inferencia_con_R_UNQ2022) ·
+[2021 edition](https://github.com/spiousas/Inferencia_con_R_UNQ2021){.entry-meta}
+:::
+
+## Outreach and community
+
+- **[#30díasdegráficos](https://github.com/spiousas/30diasdegraficos)** — data
+  visualisation challenge run by the R4DS en español community.
+- **[Contar con datos](https://github.com/spiousas/data_Udezzza_contar_con_datos)** —
+  data and code to reproduce the figures from the talk.
+- **[Slides](https://github.com/spiousas/SpiousasSlides)** — slides from talks
+  and lectures.

@@ -1,4 +1,4 @@
-lang: en
+lang: en-GB   # "en" colisiona con el directorio en/ y Quarto lo resuelve como ruta
 
 project:
   render:

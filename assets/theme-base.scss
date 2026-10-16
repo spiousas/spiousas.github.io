@@ -91,9 +91,8 @@ main.content a:not(.btn):not(.nav-link):hover {
   .navbar-brand > img { max-height: 26px; margin-right: 0.45rem; }
 }
 
-// Language toggle pill (the EN / ES navbar item)
-.navbar-nav .nav-link[aria-label="English version"],
-.navbar-nav .nav-link[aria-label="Versión en español"] {
+// Language toggle pill: the only text item in the right-hand navbar group
+.navbar-nav.ms-auto > li.nav-item:not(.compact) > .nav-link {
   border: 1px solid var(--bs-border-color);
   border-radius: 999px;
   padding: 0.1rem 0.6rem !important;
@@ -122,10 +121,13 @@ main.content a:not(.btn):not(.nav-link):hover {
 .quarto-listing {
   margin-top: 1.5rem;
 }
-.quarto-listing-default .listing-item {
+.quarto-listing-default .quarto-post {
   border-bottom: 1px solid var(--bs-border-color);
   padding-bottom: 1.15rem;
   margin-bottom: 1.15rem;
+}
+.quarto-listing-default .quarto-post:last-child {
+  border-bottom: none;
 }
 .listing-title {
   font-family: $headings-font-family;
